@@ -1,8 +1,8 @@
 # School
 
-Desc: Contains all of Alex Lay's schoolwork at the University of Alabama
+Contains all of Alex Lay's schoolwork at the University of Alabama
 
-## Courselist
+## Course List
 
 1. Data Structures and Algorithms - CS201
 2. Database Management Systems - CS557
