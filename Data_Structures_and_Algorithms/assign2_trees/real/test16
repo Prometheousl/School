@@ -1,0 +1,22 @@
+Frequency of a: 4
+Frequency of h: 4
+Frequency of f: 4
+Frequency of f: 4
+Frequency of h: 4
+Frequency of n: 4
+Frequency of x: 4
+Frequency of n: 4
+Frequency of x: 4
+Frequency of i: 2
+Frequency of m: 2
+Frequency of q: 2
+Frequency of a: 4
+0: a-4(a-4)-
+1: h-4(a-4)-r
+2: =f-4(h-4)-l n-4(h-4)-r
+3: i-2(n-4)-l x-4(n-4)-r
+4: =m-2(i-2)-r =q-2(x-4)-l
+Words/Phrases: 26
+Nodes: 8
+Minimum depth: 1
+Maximum depth: 5

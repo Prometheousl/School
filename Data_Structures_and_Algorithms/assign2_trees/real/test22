@@ -1,0 +1,32 @@
+0: c-2(c-2)-
+1: a-2(c-2)-l u-2(c-2)-r
+2: =b-2(a-2)-r n-6(u-2)-l y-2(u-2)-r
+3: d-2(n-6)-l o-2(n-6)-r =z-4(y-2)-r
+4: =j-2(d-2)-r q-2(o-2)-r
+5: =s-2(q-2)-r
+Words/Phrases: 30
+Nodes: 12
+Minimum depth: 2
+Maximum depth: 6
+Frequency of c: 0
+Frequency of u: 0
+Frequency of n: 0
+Frequency of y: 0
+Frequency of d: 0
+Frequency of j: 0
+Frequency of a: 0
+Frequency of o: 0
+Frequency of q: 0
+Frequency of s: 0
+Frequency of n: 0
+Frequency of z: 0
+Frequency of n: 0
+Frequency of z: 0
+Frequency of b: 0
+Frequency of jabberwock: 0
+Frequency of beware the jabberwock: 0
+EMPTY
+Words/Phrases: 0
+Nodes: 0
+Minimum depth: 0
+Maximum depth: 0

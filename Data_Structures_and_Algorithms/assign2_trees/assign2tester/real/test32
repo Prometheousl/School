@@ -1,0 +1,38 @@
+0: bhfe-2(bhfe-2)-
+1: aoee-2(bhfe-2)-l uiow-2(bhfe-2)-r
+2: agwy-2(aoee-2)-l bejq-2(aoee-2)-r mrjy-2(uiow-2)-l zesx-2(uiow-2)-r
+3: =akfe-2(agwy-2)-r awic-2(bejq-2)-l kgty-2(mrjy-2)-l rary-2(mrjy-2)-r xnxj-2(zesx-2)-l zxan-2(zesx-2)-r
+4: aymc-2(awic-2)-r fnxb-2(kgty-2)-l lgzv-2(kgty-2)-r pygs-2(rary-2)-l sysw-2(rary-2)-r xldd-2(xnxj-2)-l zaqc-2(xnxj-2)-r =zzbv-2(zxan-2)-r
+5: bayd-2(aymc-2)-r ejjo-2(fnxb-2)-l jnml-2(fnxb-2)-r lcrw-2(lgzv-2)-l lqce-2(lgzv-2)-r peoi-2(pygs-2)-l qwnq-2(pygs-2)-r rdrf-2(sysw-2)-l trqj-2(sysw-2)-r wjsy-2(xldd-2)-l =zbfa-2(zaqc-2)-r
+6: bdow-2(bayd-2)-r ehhx-2(ejjo-2)-l fbvh-2(ejjo-2)-r jlnn-2(jnml-2)-l =jnsy-2(jnml-2)-r kjol-2(lcrw-2)-l lmka-2(lqce-2)-l =madp-2(lqce-2)-r nmrs-2(peoi-2)-l =pozc-2(peoi-2)-r qqbq-2(qwnq-2)-l =rcln-2(rdrf-2)-l svkv-2(rdrf-2)-r tmkp-2(trqj-2)-l =ucal-2(trqj-2)-r uupp-2(wjsy-2)-l xfnc-2(wjsy-2)-r
+7: bdiv-2(bdow-2)-l bquy-2(ehhx-2)-l etxu-2(fbvh-2)-l fnew-2(fbvh-2)-r hwjm-2(jlnn-2)-l =kyaj-2(kjol-2)-r lllp-2(lmka-2)-l mygh-2(nmrs-2)-l oymw-2(nmrs-2)-r qhuh-2(qqbq-2)-l rpxy-2(svkv-2)-l tjdy-2(tmkp-2)-l uosy-2(uupp-2)-l uzua-2(uupp-2)-r xdju-2(xfnc-2)-l =xiaz-2(xfnc-2)-r
+8: =bblf-2(bdiv-2)-l =bokr-2(bquy-2)-l dtkj-2(bquy-2)-r elwf-2(etxu-2)-l =ezqr-2(etxu-2)-r fekc-2(fnew-2)-l fssu-2(hwjm-2)-l jbvf-2(hwjm-2)-r =lisw-2(lllp-2)-l nmeb-2(mygh-2)-r oqsd-2(oymw-2)-l =pbmv-2(oymw-2)-r =qlww-2(qhuh-2)-r sddu-2(rpxy-2)-r =tdnz-2(tjdy-2)-l =tmdr-2(tjdy-2)-r =uuft-2(uosy-2)-r =uysj-2(uzua-2)-l wido-2(uzua-2)-r =wrbr-2(xdju-2)-l
+9: bsde-2(dtkj-2)-l dyeq-2(dtkj-2)-r =elan-2(elwf-2)-l etfu-2(elwf-2)-r =ffsg-2(fekc-2)-r fxnb-2(fssu-2)-r idzl-2(jbvf-2)-l jfcx-2(jbvf-2)-r =nkbx-2(nmeb-2)-l npns-2(oqsd-2)-l oxgs-2(oqsd-2)-r rtfe-2(sddu-2)-l wbqw-2(wido-2)-l
+10: dspa-2(bsde-2)-r dxtr-2(dyeq-2)-l emvb-2(etfu-2)-l =ftkq-2(fxnb-2)-l hvwl-2(fxnb-2)-r =ibjj-2(idzl-2)-l ipjz-2(idzl-2)-r =jeoy-2(jfcx-2)-l =jfna-2(jfcx-2)-r nuiy-2(npns-2)-r =oxzx-2(oxgs-2)-r rtpz-2(rtfe-2)-r =vitx-2(wbqw-2)-l
+11: cooe-2(dspa-2)-l =dtmv-2(dxtr-2)-l epxn-2(emvb-2)-r houl-2(hvwl-2)-l =jaam-2(ipjz-2)-r odtv-2(nuiy-2)-r =rxzz-2(rtpz-2)-r
+12: cisn-2(cooe-2)-l doao-2(cooe-2)-r =emwo-2(epxn-2)-l gykx-2(houl-2)-l =hvhu-2(houl-2)-r nwva-2(odtv-2)-l =ooeh-2(odtv-2)-r
+13: =cjwa-2(cisn-2)-r cwpn-2(doao-2)-l dpxv-2(doao-2)-r gmrx-2(gykx-2)-l =hmlm-2(gykx-2)-r =oawh-2(nwva-2)-r
+14: =cqbk-2(cwpn-2)-l =diwh-2(cwpn-2)-r =dolj-2(dpxv-2)-l =girq-2(gmrx-2)-l
+Words/Phrases: 270
+Nodes: 135
+Minimum depth: 3
+Maximum depth: 15
+0: bhfe(bhfe)-
+1: aoee(bhfe)-l uiow(bhfe)-r
+2: agwy(aoee)-l bejq(aoee)-r mrjy(uiow)-l zesx(uiow)-r
+3: =akfe(agwy)-r awic(bejq)-l kgty(mrjy)-l rary(mrjy)-r xnxj(zesx)-l zxan(zesx)-r
+4: aymc(awic)-r fnxb(kgty)-l lgzv(kgty)-r pygs(rary)-l sysw(rary)-r xldd(xnxj)-l zaqc(xnxj)-r =zzbv(zxan)-r
+5: bayd(aymc)-r ejjo(fnxb)-l jnml(fnxb)-r lcrw(lgzv)-l lqce(lgzv)-r peoi(pygs)-l qwnq(pygs)-r rdrf(sysw)-l trqj(sysw)-r wjsy(xldd)-l =zbfa(zaqc)-r
+6: bdow(bayd)-r ehhx(ejjo)-l fbvh(ejjo)-r jlnn(jnml)-l =jnsy(jnml)-r kjol(lcrw)-l lmka(lqce)-l =madp(lqce)-r nmrs(peoi)-l =pozc(peoi)-r qqbq(qwnq)-l =rcln(rdrf)-l svkv(rdrf)-r tmkp(trqj)-l =ucal(trqj)-r uupp(wjsy)-l xfnc(wjsy)-r
+7: bdiv(bdow)-l bquy(ehhx)-l etxu(fbvh)-l fnew(fbvh)-r hwjm(jlnn)-l =kyaj(kjol)-r lllp(lmka)-l mygh(nmrs)-l oymw(nmrs)-r qhuh(qqbq)-l rpxy(svkv)-l tjdy(tmkp)-l uosy(uupp)-l uzua(uupp)-r xdju(xfnc)-l =xiaz(xfnc)-r
+8: =bblf(bdiv)-l =bokr(bquy)-l dtkj(bquy)-r elwf(etxu)-l =ezqr(etxu)-r fekc(fnew)-l fssu(hwjm)-l jbvf(hwjm)-r =lisw(lllp)-l nmeb(mygh)-r oqsd(oymw)-l =pbmv(oymw)-r =qlww(qhuh)-r sddu(rpxy)-r =tdnz(tjdy)-l =tmdr(tjdy)-r =uuft(uosy)-r =uysj(uzua)-l wido(uzua)-r =wrbr(xdju)-l
+9: bsde(dtkj)-l dyeq(dtkj)-r =elan(elwf)-l etfu(elwf)-r =ffsg(fekc)-r fxnb(fssu)-r idzl(jbvf)-l jfcx(jbvf)-r =nkbx(nmeb)-l npns(oqsd)-l oxgs(oqsd)-r rtfe(sddu)-l wbqw(wido)-l
+10: dspa(bsde)-r dxtr(dyeq)-l emvb(etfu)-l =ftkq(fxnb)-l hvwl(fxnb)-r =ibjj(idzl)-l ipjz(idzl)-r =jeoy(jfcx)-l =jfna(jfcx)-r nuiy(npns)-r =oxzx(oxgs)-r rtpz(rtfe)-r =vitx(wbqw)-l
+11: cooe(dspa)-l =dtmv(dxtr)-l epxn(emvb)-r houl(hvwl)-l =jaam(ipjz)-r odtv(nuiy)-r =rxzz(rtpz)-r
+12: cisn(cooe)-l doao(cooe)-r =emwo(epxn)-l gykx(houl)-l =hvhu(houl)-r nwva(odtv)-l =ooeh(odtv)-r
+13: =cjwa(cisn)-r cwpn(doao)-l dpxv(doao)-r gmrx(gykx)-l =hmlm(gykx)-r =oawh(nwva)-r
+14: =cqbk(cwpn)-l =diwh(cwpn)-r =dolj(dpxv)-l =girq(gmrx)-l
+Words/Phrases: 135
+Nodes: 135
+Minimum depth: 3
+Maximum depth: 15

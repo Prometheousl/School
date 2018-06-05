@@ -1,0 +1,30 @@
+0: n-6-B(n-6-B)-
+1: d-2-R(n-6-B)-l u-2-R(n-6-B)-r
+2: b-2-B(d-2-R)-l =j-2-B(d-2-R)-r q-2-B(u-2-R)-l y-2-B(u-2-R)-r
+3: =a-2-R(b-2-B)-l =c-2-R(b-2-B)-r =o-2-R(q-2-B)-l =s-2-R(q-2-B)-r =z-4-R(y-2-B)-r
+Words/Phrases: 30
+Nodes: 12
+Minimum depth: 3
+Maximum depth: 4
+Frequency of c: 0
+Frequency of u: 0
+Frequency of n: 0
+Frequency of y: 0
+Frequency of d: 0
+Frequency of j: 0
+Frequency of a: 0
+Frequency of o: 0
+Frequency of q: 0
+Frequency of s: 0
+Frequency of n: 0
+Frequency of z: 0
+Frequency of n: 0
+Frequency of z: 0
+Frequency of b: 0
+Frequency of jabberwock: 0
+Frequency of beware the jabberwock: 0
+EMPTY
+Words/Phrases: 0
+Nodes: 0
+Minimum depth: 0
+Maximum depth: 0

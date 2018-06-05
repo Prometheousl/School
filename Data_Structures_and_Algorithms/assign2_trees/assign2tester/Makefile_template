@@ -1,0 +1,133 @@
+TEST_OUTPUT = *.me
+
+test : trees
+	./trees -v
+	./trees -g trees.0 trees.1 > test12.me
+	./trees -r trees.0 trees.1 > test13.me
+	./trees -g test-0-0.corpus test-0-0.go > test14.me
+	./trees -r test-0-0.corpus test-0-0.go > test15.me
+	./trees -g test-0-1.corpus test-0-1.go > test16.me
+	./trees -r test-0-1.corpus test-0-1.go > test17.me
+	./trees -g test-0-2.corpus test-0-2.go > test18.me
+	./trees -r test-0-2.corpus test-0-2.go > test19.me
+	./trees -g test-0-3.corpus test-0-3.go > test20.me
+	./trees -r test-0-3.corpus test-0-3.go > test21.me
+	./trees -g test-0-4.corpus test-0-4.go > test22.me
+	./trees -r test-0-4.corpus test-0-4.go > test23.me
+	./trees -g test-0-5.corpus test-0-5.go > test24.me
+	./trees -r test-0-5.corpus test-0-5.go > test25.me
+	./trees -g test-0-6.corpus test-0-6.go > test26.me
+	./trees -r test-0-6.corpus test-0-6.go > test27.me
+	./trees -g test-0-7.corpus test-0-7.go > test28.me
+	./trees -r test-0-7.corpus test-0-7.go > test29.me
+	./trees -g test-0-8.corpus test-0-8.go > test30.me
+	./trees -r test-0-8.corpus test-0-8.go > test31.me
+	./trees -g test-0-9.corpus test-0-9.go > test32.me
+	./trees -r test-0-9.corpus test-0-9.go > test33.me
+	./trees -g test-0-10.corpus test-0-10.go > test34.me
+	./trees -r test-0-10.corpus test-0-10.go > test35.me
+	./trees -g test-0-11.corpus test-0-11.go > test36.me
+	./trees -r test-0-11.corpus test-0-11.go > test37.me
+	./trees -g test-0-12.corpus test-0-12.go > test38.me
+	./trees -r test-0-12.corpus test-0-12.go > test39.me
+	./trees -g test-0-13.corpus test-0-13.go > test40.me
+	./trees -r test-0-13.corpus test-0-13.go > test41.me
+	./trees -g test-0-14.corpus test-0-14.go > test42.me
+	./trees -r test-0-14.corpus test-0-14.go > test43.me
+	./trees -g beowulf.txt beowulf.go1 > test44.me
+	./trees -r beowulf.txt beowulf.go1 > test45.me
+	./trees -g beowulf.txt beowulf.go2 > test46.me
+	./trees -r beowulf.txt beowulf.go2 > test47.me
+	./trees -g shakespeare.txt shakespeare.go1 > test48.me
+	./trees -r shakespeare.txt shakespeare.go1 > test49.me
+	./trees -g shakespeare.txt shakespeare.go2 > test50.me
+	./trees -r shakespeare.txt shakespeare.go2 > test51.me
+	make run-diff
+
+run-diff : trees
+	diff test12.me ./real/test12
+	diff test13.me ./real/test13
+	diff test14.me ./real/test14
+	diff test15.me ./real/test15
+	diff test16.me ./real/test16
+	diff test17.me ./real/test17
+	diff test18.me ./real/test18
+	diff test19.me ./real/test19
+	diff test20.me ./real/test20
+	diff test21.me ./real/test21
+	diff test22.me ./real/test22
+	diff test23.me ./real/test23
+	diff test24.me ./real/test24
+	diff test25.me ./real/test25
+	diff test26.me ./real/test26
+	diff test27.me ./real/test27
+	diff test28.me ./real/test28
+	diff test29.me ./real/test29
+	diff test30.me ./real/test30
+	diff test31.me ./real/test31
+	diff test32.me ./real/test32
+	diff test33.me ./real/test33
+	diff test34.me ./real/test34
+	diff test35.me ./real/test35
+	diff test36.me ./real/test36
+	diff test37.me ./real/test37
+	diff test38.me ./real/test38
+	diff test39.me ./real/test39
+	diff test40.me ./real/test40
+	diff test41.me ./real/test41
+	diff test42.me ./real/test42
+	diff test43.me ./real/test43
+	diff test44.me ./real/test44
+	diff test45.me ./real/test45
+	diff test46.me beowulf-g.tree
+	diff test47.me beowulf-r.tree
+	diff test48.me ./real/test48
+	diff test49.me ./real/test49
+	diff test50.me shakespeare-g.tree
+	diff test51.me shakespeare-r.tree
+
+full-test : trees
+	./trees -g trees.0 trees.1
+	./trees -r trees.0 trees.1
+	./trees -g test-0-0.corpus test-0-0.go
+	./trees -r test-0-0.corpus test-0-0.go
+	./trees -g test-0-1.corpus test-0-1.go
+	./trees -r test-0-1.corpus test-0-1.go
+	./trees -g test-0-2.corpus test-0-2.go
+	./trees -r test-0-2.corpus test-0-2.go
+	./trees -g test-0-3.corpus test-0-3.go
+	./trees -r test-0-3.corpus test-0-3.go
+	./trees -g test-0-4.corpus test-0-4.go
+	./trees -r test-0-4.corpus test-0-4.go
+	./trees -g test-0-5.corpus test-0-5.go
+	./trees -r test-0-5.corpus test-0-5.go
+	./trees -g test-0-6.corpus test-0-6.go
+	./trees -r test-0-6.corpus test-0-6.go
+	./trees -g test-0-7.corpus test-0-7.go
+	./trees -r test-0-7.corpus test-0-7.go
+	./trees -g test-0-8.corpus test-0-8.go
+	./trees -r test-0-8.corpus test-0-8.go
+	./trees -g test-0-9.corpus test-0-9.go
+	./trees -r test-0-9.corpus test-0-9.go
+	./trees -g test-0-10.corpus test-0-10.go
+	./trees -r test-0-10.corpus test-0-10.go
+	./trees -g test-0-11.corpus test-0-11.go
+	./trees -r test-0-11.corpus test-0-11.go
+	./trees -g test-0-12.corpus test-0-12.go
+	./trees -r test-0-12.corpus test-0-12.go
+	./trees -g test-0-13.corpus test-0-13.go
+	./trees -r test-0-13.corpus test-0-13.go
+	./trees -g test-0-14.corpus test-0-14.go
+	./trees -r test-0-14.corpus test-0-14.go
+	./trees -g beowulf.txt beowulf.go1
+	./trees -r beowulf.txt beowulf.go1
+	./trees -g beowulf.txt beowulf.go2
+	./trees -r beowulf.txt beowulf.go2
+	./trees -g shakespeare.txt shakespeare.go1
+	./trees -r shakespeare.txt shakespeare.go1
+	./trees -g shakespeare.txt shakespeare.go2
+	./trees -r shakespeare.txt shakespeare.go2
+
+clean :
+	rm -f trees
+	rm -f $(TEST_OUTPUT)

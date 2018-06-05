@@ -1,0 +1,2 @@
+GET * FROM T1
+WHERE (K1>48);

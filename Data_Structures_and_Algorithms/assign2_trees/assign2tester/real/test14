@@ -1,0 +1,10 @@
+0: w(w)-
+1: l(w)-l
+2: b-3(l)-l r-2(l)-r
+3: =a(b-3)-l h(b-3)-r m(r-2)-l
+4: c(h)-l =hello world(h)-r =q(m)-r
+5: =d(c)-r
+Words/Phrases: 14
+Nodes: 11
+Minimum depth: 1
+Maximum depth: 6

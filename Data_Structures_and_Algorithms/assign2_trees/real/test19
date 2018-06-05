@@ -1,0 +1,9 @@
+0: k-2-B(k-2-B)-
+1: e-2-B(k-2-B)-l v-2-B(k-2-B)-r
+2: =c-4-B(e-2-B)-l j-2-B(e-2-B)-r q-4-R(v-2-B)-l z-2-B(v-2-B)-r
+3: =f-2-R(j-2-B)-l n-2-B(q-4-R)-l r-2-B(q-4-R)-r =x-2-R(z-2-B)-l
+4: =m-2-R(n-2-B)-l =p-2-R(n-2-B)-r =t-2-R(r-2-B)-r
+Words/Phrases: 32
+Nodes: 14
+Minimum depth: 3
+Maximum depth: 5

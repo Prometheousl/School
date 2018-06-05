@@ -1,0 +1,97 @@
+#!/bin/bash
+
+# edit target as appropriate
+
+name=submit
+domain=10.8.3.43
+domain=troll.cs.ua.edu
+
+
+if [ $1"x" = "-sx" ]; then
+    echo Changing to drop box on $2
+    domain=$2
+    shift
+    shift
+fi
+
+target=$name@$domain
+
+##################
+function if_error
+    {
+    if [[ $? -ne 0 ]]; then # check return code passed to function
+    echo "###"
+    echo $1
+    echo "###"
+    exit $?
+    fi
+    }
+###################
+
+# check number of arguments
+if [ $# != 3 ] ; then
+    echo "Usage: submit XXX YYY ZZZ"
+    echo "    " where XXX is the course name \(like cs100 or cs101\)
+    echo "    " where YYY is your instructor\'s dropbox name
+    echo "    " where ZZZ is the assignment name
+    exit 1
+fi
+
+if [ $EMAIL"x" == "x" ] ; then
+    echo !!!
+    echo !!! Before you can submit, you need to run the set.email program
+    echo !!! Type this command into the terminal
+    echo !!! 
+    echo !!! set.email replaceThisPartWithYourCrimsonEmail
+    echo !!!
+    exit 1
+fi
+
+if [ `basename $EMAIL @crimson.ua.edu`"@crimson.ua.edu" != $EMAIL ] ; then
+    if [ `basename $EMAIL @cs.ua.edu`"@cs.ua.edu" != $EMAIL ] ; then
+        echo !!!
+        echo !!! Your current email is $EMAIL
+        echo !!! You must set your email to a crimson account!
+        echo !!!
+        exit 1
+    fi
+fi
+
+if [ $EMAIL != `cat ~/.bash_info` ] ; then
+    echo !!!
+    echo !!! Your email address has unexpectedly changed
+    echo !!!
+    exit 1
+fi
+
+class=$1
+section=$2
+assign=$3
+
+if [[ $class$section$assign == *..* ]] ; then
+    echo !!!
+    echo !!! No dots can appear in any regular argument to submit
+    echo !!!
+    exit 2
+fi
+
+if [[ $class$section$assign != `basename $class$section$assign` ]] ; then
+    echo !!!
+    echo !!! No slashes can appear in any argument to submit
+    echo !!!
+    exit 2
+fi
+
+echo Submitting $EMAIL\'s assignment $assign for $class.
+echo The following files and directories will be submitted:
+echo
+ls -C
+echo
+touch $EMAIL; pwd > .WORKING; date >> .WORKING; ls -C >> .WORKING; tar cvz . 2> /dev/null | ssh $target \
+            "/usr/local/bin/submit-store $class $section $assign $EMAIL \
+            && /bin/echo $section - $EMAIL | \
+                /usr/bin/mail -s $section\ $EMAIL\ SUBMITTED\ $assign lusth@cs.ua.edu \
+            && /bin/echo $section - $EMAIL | \
+                /usr/bin/mail -s successful\ submission\ of\ $assign $EMAIL \
+            && /bin/echo submit by $EMAIL appeared to be successful"
+rm -f .WORKING $EMAIL
